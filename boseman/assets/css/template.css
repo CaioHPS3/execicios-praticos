@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #373737;
+    font-family: oxygen;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 990px;
+    
+}
+.header img {
+    width: auto;
+    height: 80px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.title h1 {
+    margin: 0;
+    margin-bottom: 5px;
+    font-family: oxygen;
+    font-size: 30px;
+    color: #8b008b;
+}
+
+.banner-geral {
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    background-color: #8b008b;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+.title, .destruction-morte{
+    color:#fff;
+}
+
+.title {
+    text-shadow: 2px 1px 1px #4b0082;
+    font-size: 50px;
+}
+
+.destruction-morte {
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.foto img {
+    margin: 0;
+    width: 550px;
+    height: auto;
+}
+.frase p {
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.info {
+    display: flex;
+    margin: 10px;
+    border: 2px dashed #fff;
+    border-radius: 20px;
+}
+
+.info1, .info2, .fotos {
+    flex: 1;
+    padding: 10px;
+}
+
+.info1, .info2 {
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    color: #fff;
+}
+
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.foto1, .foto2, .foto3, .foto4 {
+    flex: 1;
+    object-fit:cover;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+.fonte a {
+    color: black;
+    text-decoration: none;
+}
+
+.fonte {
+    margin: 10px;
+    color: black;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.contatos{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contatos a img {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    margin: 0px 5px;
+    
+}
+
+.name {
+    
+    font-size: 18px;
+    margin-bottom: 20px;
+}
